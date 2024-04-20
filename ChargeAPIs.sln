@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA.Meta", "CA.Meta\CA.Meta.csproj", "{A877FD84-164C-442C-A9C0-AE560F00CD53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA.Meta", "CA.Meta\CA.Meta.csproj", "{A877FD84-164C-442C-A9C0-AE560F00CD53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{38A62A4E-6ADF-4CA5-9093-BF9195FE44DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA.ChargeHub", "CA.ChargeHub\CA.ChargeHub.csproj", "{C934A61B-9A5C-4A8F-9726-EEDD8674AB52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA.ChargeHub", "CA.ChargeHub\CA.ChargeHub.csproj", "{C934A61B-9A5C-4A8F-9726-EEDD8674AB52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{E4DEE7ED-611B-4B73-BFBD-AF57D974D335}"
+	ProjectSection(SolutionItems) = preProject
+		InitObject.cs = InitObject.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +31,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4DEE7ED-611B-4B73-BFBD-AF57D974D335} = {38A62A4E-6ADF-4CA5-9093-BF9195FE44DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {125FECE4-A17C-43DE-A553-35096F6E8C4B}
